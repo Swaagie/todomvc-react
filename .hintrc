@@ -1,0 +1,13 @@
+{
+  "extends": [
+      "web-recommended"
+  ],
+  "hints": {
+    "css-prefix-order": "error",
+    "stylesheet-limits": ["error", {
+        "maxRules": 10,
+        "maxSheets": 1,
+        "maxImports": 2
+    }]
+  }
+}
