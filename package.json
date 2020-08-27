@@ -40,6 +40,8 @@
     "uuid": "^8.3.0"
   },
   "devDependencies": {
+    "@hint/configuration-web-recommended": "^8.0.7",
+    "@hint/hint-stylesheet-limits": "^3.3.6",
     "@rollup/plugin-babel": "^5.2.0",
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
