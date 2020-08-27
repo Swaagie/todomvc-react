@@ -1,0 +1,310 @@
+{
+  "tree": {
+    "react@16.13.1": {
+      "deps": {
+        "object-assign@4.1.1": {
+          "deps": {},
+          "name": "object-assign",
+          "version": "4.1.1"
+        },
+        "prop-types@15.7.2": {
+          "deps": {
+            "process@0.0.0": {
+              "deps": {},
+              "name": "process",
+              "version": "0.0.0"
+            },
+            "react-is@16.9.0": {
+              "deps": {},
+              "name": "react-is",
+              "version": "16.9.0"
+            }
+          },
+          "name": "prop-types",
+          "version": "15.7.2"
+        }
+      },
+      "name": "react",
+      "version": "16.13.1"
+    },
+    "react-dom@16.13.1": {
+      "deps": {
+        "scheduler@0.19.1": {
+          "deps": {},
+          "name": "scheduler",
+          "version": "0.19.1"
+        }
+      },
+      "name": "react-dom",
+      "version": "16.13.1"
+    },
+    "todomvc-app-css@2.3.0": {
+      "deps": {
+        "fuse-box-css@0.0.1": {
+          "deps": {},
+          "name": "fuse-box-css",
+          "version": "0.0.1"
+        }
+      },
+      "name": "todomvc-app-css",
+      "version": "2.3.0"
+    },
+    "react-redux@7.2.1": {
+      "deps": {
+        "@babel/runtime@7.9.2": {
+          "deps": {},
+          "name": "@babel/runtime",
+          "version": "7.9.2"
+        },
+        "hoist-non-react-statics@3.3.2": {
+          "deps": {},
+          "name": "hoist-non-react-statics",
+          "version": "3.3.2"
+        },
+        "redux@4.0.5": {
+          "deps": {
+            "symbol-observable@1.2.0": {
+              "deps": {},
+              "name": "symbol-observable",
+              "version": "1.2.0"
+            }
+          },
+          "name": "redux",
+          "version": "4.0.5"
+        }
+      },
+      "name": "react-redux",
+      "version": "7.2.1"
+    },
+    "uuid@8.3.0": {
+      "deps": {
+        "crypto@0.0.0": {
+          "deps": {},
+          "name": "crypto",
+          "version": "0.0.0"
+        },
+        "buffer@0.0.0": {
+          "deps": {
+            "base64-js@1.3.1": {
+              "deps": {},
+              "name": "base64-js",
+              "version": "1.3.1"
+            },
+            "ieee754@1.1.13": {
+              "deps": {},
+              "name": "ieee754",
+              "version": "1.1.13"
+            }
+          },
+          "name": "buffer",
+          "version": "0.0.0"
+        }
+      },
+      "name": "uuid",
+      "version": "8.3.0"
+    },
+    "classnames@2.2.6": {
+      "deps": {},
+      "name": "classnames",
+      "version": "2.2.6"
+    }
+  },
+  "flat": {
+    "react@16.13.1": {
+      "name": "react",
+      "version": "16.13.1",
+      "files": [
+        "index.js",
+        "cjs/react.production.min.js",
+        "cjs/react.development.js"
+      ]
+    },
+    "object-assign@4.1.1": {
+      "name": "object-assign",
+      "version": "4.1.1",
+      "files": [
+        "index.js"
+      ]
+    },
+    "prop-types@15.7.2": {
+      "name": "prop-types",
+      "version": "15.7.2",
+      "files": [
+        "checkPropTypes.js",
+        "lib/ReactPropTypesSecret.js",
+        "index.js",
+        "factoryWithTypeCheckers.js",
+        "factoryWithThrowingShims.js"
+      ]
+    },
+    "process@0.0.0": {
+      "name": "process",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    },
+    "react-is@16.9.0": {
+      "name": "react-is",
+      "version": "16.9.0",
+      "files": [
+        "index.js",
+        "cjs/react-is.production.min.js",
+        "cjs/react-is.development.js"
+      ]
+    },
+    "react-dom@16.13.1": {
+      "name": "react-dom",
+      "version": "16.13.1",
+      "files": [
+        "index.js",
+        "cjs/react-dom.production.min.js",
+        "cjs/react-dom.development.js"
+      ]
+    },
+    "scheduler@0.19.1": {
+      "name": "scheduler",
+      "version": "0.19.1",
+      "files": [
+        "index.js",
+        "cjs/scheduler.production.min.js",
+        "cjs/scheduler.development.js",
+        "tracing.js",
+        "cjs/scheduler-tracing.production.min.js",
+        "cjs/scheduler-tracing.development.js"
+      ]
+    },
+    "todomvc-app-css@2.3.0": {
+      "name": "todomvc-app-css",
+      "version": "2.3.0",
+      "files": [
+        "index.css"
+      ]
+    },
+    "fuse-box-css@0.0.1": {
+      "name": "fuse-box-css",
+      "version": "0.0.1",
+      "files": [
+        "index.js"
+      ]
+    },
+    "react-redux@7.2.1": {
+      "name": "react-redux",
+      "version": "7.2.1",
+      "files": [
+        "lib/index.js",
+        "lib/components/Provider.js",
+        "lib/components/Context.js",
+        "lib/utils/Subscription.js",
+        "lib/utils/batch.js",
+        "lib/components/connectAdvanced.js",
+        "lib/utils/useIsomorphicLayoutEffect.js",
+        "lib/connect/connect.js",
+        "lib/utils/shallowEqual.js",
+        "lib/connect/mapDispatchToProps.js",
+        "lib/connect/wrapMapToProps.js",
+        "lib/utils/verifyPlainObject.js",
+        "lib/utils/isPlainObject.js",
+        "lib/utils/warning.js",
+        "lib/connect/mapStateToProps.js",
+        "lib/connect/mergeProps.js",
+        "lib/connect/selectorFactory.js",
+        "lib/connect/verifySubselectors.js",
+        "lib/hooks/useDispatch.js",
+        "lib/hooks/useStore.js",
+        "lib/hooks/useReduxContext.js",
+        "lib/hooks/useSelector.js",
+        "lib/utils/reactBatchedUpdates.js"
+      ]
+    },
+    "@babel/runtime@7.9.2": {
+      "name": "@babel/runtime",
+      "version": "7.9.2",
+      "files": [
+        "helpers/interopRequireDefault.js",
+        "helpers/interopRequireWildcard.js",
+        "helpers/typeof.js",
+        "helpers/extends.js",
+        "helpers/objectWithoutPropertiesLoose.js"
+      ]
+    },
+    "hoist-non-react-statics@3.3.2": {
+      "name": "hoist-non-react-statics",
+      "version": "3.3.2",
+      "files": [
+        "dist/hoist-non-react-statics.cjs.js"
+      ]
+    },
+    "redux@4.0.5": {
+      "name": "redux",
+      "version": "4.0.5",
+      "files": [
+        "lib/redux.js"
+      ]
+    },
+    "symbol-observable@1.2.0": {
+      "name": "symbol-observable",
+      "version": "1.2.0",
+      "files": [
+        "lib/index.js",
+        "lib/ponyfill.js"
+      ]
+    },
+    "uuid@8.3.0": {
+      "name": "uuid",
+      "version": "8.3.0",
+      "files": [
+        "dist/index.js",
+        "dist/v1.js",
+        "dist/rng.js",
+        "dist/stringify.js",
+        "dist/validate.js",
+        "dist/regex.js",
+        "dist/v3.js",
+        "dist/v35.js",
+        "dist/parse.js",
+        "dist/md5.js",
+        "dist/v4.js",
+        "dist/v5.js",
+        "dist/sha1.js",
+        "dist/nil.js",
+        "dist/version.js"
+      ]
+    },
+    "crypto@0.0.0": {
+      "name": "crypto",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    },
+    "buffer@0.0.0": {
+      "name": "buffer",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    },
+    "base64-js@1.3.1": {
+      "name": "base64-js",
+      "version": "1.3.1",
+      "files": [
+        "index.js"
+      ]
+    },
+    "ieee754@1.1.13": {
+      "name": "ieee754",
+      "version": "1.1.13",
+      "files": [
+        "index.js"
+      ]
+    },
+    "classnames@2.2.6": {
+      "name": "classnames",
+      "version": "2.2.6",
+      "files": [
+        "index.js"
+      ]
+    }
+  }
+}

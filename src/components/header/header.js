@@ -5,9 +5,13 @@ import { withStateAndDispatch } from '../../store';
 const ENTER_KEY = 'Enter';
 
 export class Header extends Component {
-  state = {
-    name: ''
-  };
+  constructor(...args) {
+    super(...args);
+
+    this.state = {
+      name: ''
+    };
+  }
 
   handleChange(event) {
     this.setState({ name: event.target.value });

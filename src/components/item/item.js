@@ -3,10 +3,14 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 export class Item extends Component {
-  state = {
-    editing: false,
-    name: ''
-  };
+  constructor(...args) {
+    super(...args);
+
+    this.state = {
+      editing: false,
+      name: ''
+    };
+  }
 
   componentDidMount() {
     this.setState({ name: this.props.todo.name });

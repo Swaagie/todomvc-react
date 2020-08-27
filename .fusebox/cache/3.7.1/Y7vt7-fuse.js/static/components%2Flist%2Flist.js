@@ -1,0 +1,9 @@
+module.exports = { contents: "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ListContainer = exports.List = void 0;\nvar tslib_1 = require(\"tslib\");\nvar react_1 = require(\"react\");\nvar prop_types_1 = require(\"prop-types\");\nvar item_1 = require(\"../item/item\");\nvar store_1 = require(\"../../store\");\nvar List = /** @class */ (function (_super) {\n    tslib_1.__extends(List, _super);\n    function List() {\n        return _super !== null && _super.apply(this, arguments) || this;\n    }\n    List.prototype.render = function () {\n        var _this = this;\n        return (react_1.default.createElement(\"section\", { className: \"main\" },\n            react_1.default.createElement(\"input\", { id: \"toggle-all\", className: \"toggle-all\", type: \"checkbox\", checked: this.props.areAllCompleted, readOnly: true }),\n            react_1.default.createElement(\"label\", { htmlFor: \"toggle-all\", onClick: this.props.onCompleteAll }),\n            react_1.default.createElement(\"ul\", { className: \"todo-list\" }, this.props.visibleTodos.map(function (todo) { return (react_1.default.createElement(item_1.Item, { key: todo.id, todo: todo, onUpdate: _this.props.onUpdate, onRemove: _this.props.onRemove })); }))));\n    };\n    return List;\n}(react_1.Component));\nexports.List = List;\nList.propTypes = {\n    visibleTodos: prop_types_1.default.array.isRequired,\n    areAllCompleted: prop_types_1.default.bool.isRequired,\n    onUpdate: prop_types_1.default.func.isRequired,\n    onRemove: prop_types_1.default.func.isRequired,\n    onCompleteAll: prop_types_1.default.func.isRequired\n};\nexports.ListContainer = store_1.withStateAndDispatch(List);\n",
+dependencies: ["react","prop-types","../item/item","../../store"],
+sourceMap: {},
+headerContent: undefined,
+mtime: 1598426257598,
+devLibsRequired : undefined,
+ac : undefined,
+_ : {}
+}
